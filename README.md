@@ -1,3 +1,3 @@
 # Practice-HTML-CSS
 
-This repo contains some HTML/CSS code I wrote while learning HTML and CSS
+This repo contains some HTML/CSS code I wrote while learning web development
