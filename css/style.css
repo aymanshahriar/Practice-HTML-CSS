@@ -1,0 +1,56 @@
+/*Selector{
+	property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(https://pbs.twimg.com/media/CPMwvbKUcAE-csv.png);
+	background-size: cover;
+}
+
+
+p {
+	color: #AA3939;
+	text-align: center;
+	border: 5px solid rgb(212, 106, 106, 0.5);
+	cursor: pointer;
+}
+
+
+p {
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: 'Press Start 2P', cursive;
+}	
+
+
+img {
+	float: right;
+}
+
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.class1:last-child {
+	border: 5px dashed orange;
+}
+
+.class2 {
+	color: red;
+}
+
+#id1 {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+#id2 {
+	background-color: rgba(255, 0, 0, 0.2);
+}

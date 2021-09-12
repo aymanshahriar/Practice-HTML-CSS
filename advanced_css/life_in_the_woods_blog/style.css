@@ -1,0 +1,37 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	/*Defines the container to be a flex container*/ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; space-evenly;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	/*box-shadow: 4px 4px 5px #888888;*/
+
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: transform 0.5s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
